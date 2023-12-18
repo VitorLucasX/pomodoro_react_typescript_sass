@@ -11,3 +11,6 @@
 </div>
 
 <br>Projeto responsivo com opção de início, descanso e pause. Abaixo mostra as informações de tempo que o usuário está usando.
+
+![print1](https://github.com/VitorLucasX/pomodoro_react_typescript_sass/assets/126624364/af7748d2-bd7c-404a-9d6e-d474b0f192d6)
+![print2](https://github.com/VitorLucasX/pomodoro_react_typescript_sass/assets/126624364/e97801e1-5769-4fe9-bc45-88f0a6716181)
