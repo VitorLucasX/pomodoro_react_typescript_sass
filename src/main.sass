@@ -1,0 +1,68 @@
+*
+  margin: 0
+  padding: 0
+  outline: none
+  box-sizing: border-box
+
+body
+  height: 100vh
+  font-family: sans-serif
+  line-height: 1.5
+  background-image: url(./img/dog-sleep.jpg)
+  background-size: cover
+  background-repeat: no-repeat
+  transition: 
+    background-image: 300ms ease-in-out
+
+.container 
+  max-width: 640px
+  margin: 0 auto
+
+.working
+  background-image: url(./img/working-code.jpg)
+  @media screen and (max-width: 790px) 
+    background-position: center
+    transition: 300ms ease-in-out
+
+
+.hidden
+  display: none
+
+.pomodoro
+  background: #fff
+  margin: 50px 20px
+  padding: 20px
+  border-radius: 4px
+  box-shadow: 0 0 10px rgba(0,0,0,.5)
+  
+  h2
+    font-size: 24px
+    text-align: center
+  
+  button
+    background: #dfdfdf
+    border: none
+    cursor: pointer
+    padding: 10px 25px
+    color: black
+    transition:
+      background-color: 300ms ease-in-out
+    margin: 20px auto
+ 
+ 
+.working .pomodoro button
+    background: black
+    color: white
+
+.controls 
+  display: flex
+  align-items: center
+  justify-content: space-evenly
+
+.timer
+  font-size: 6rem
+  text-align: center
+
+.details
+  margin: 20px 0
+
